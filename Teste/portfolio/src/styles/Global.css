@@ -1,0 +1,341 @@
+:root {
+    --font-size-h3: 3rem;    
+}
+
+.top-section .left {
+    padding-right: 40px;
+}
+
+header {
+    /* border: purple solid 5px; */
+    background-color:#020F13;
+
+    background-image: url(code-abstract.gif);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: rotate(45deg); */
+    color: white;
+    background-position: center;
+    
+}
+
+.header {
+    /* border: pink solid 5px; */
+    background-color: #070c12;
+
+    display: flex;
+    position: fixed;
+    flex-direction: row; /* Alteração aqui */
+    align-items: center;
+    width: 100%;
+
+}
+
+.left {
+    /* border: red solid 3px; */
+    /* width: 30%; */
+    /* padding-left: 5%; */
+    padding: 1rem;
+    display: flex;
+    margin-left: 4rem;
+}
+
+.right {
+    /* border: green solid 3px; */
+    width: 70%;
+    display: flex;
+    gap: 5rem;
+    justify-content: right;
+    margin-right: 20rem;
+
+    font-size: 1.5rem;
+    /* justify-content: space-evenly; */
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.logo {
+    width: 22%;
+    padding-left: 2%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+
+    height: 60rem;
+}
+
+.hero h1{
+    font-size: 100px;
+    padding-bottom: 8%;
+
+    color: #6CEBFC;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.carroussel{
+    border: orangered solid 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    background: rgb(2,15,19);
+    background: linear-gradient(0deg, rgba(2,15,19,1) 14%, rgba(7,41,60,1) 54%, rgba(2,15,19,1) 100%);
+    width: 100%;
+    height: 600px;
+}
+
+.carroussel-placeholder {
+    width: 60%;
+    height: 55%;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.technologySection {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10%;
+    border: brown solid 5px;
+    background-color: #020F13;
+    width: 100%;
+
+    padding:10%;
+}
+
+.technologySection h3{
+    font-size: var(--font-size-h3);
+    font-weight: bold;
+}
+
+.gridSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    grid-template-rows: repeat(3, 100px); /* 3 linhas com altura de 100px cada */
+    gap: 1rem; /* Espaçamento entre as células */
+
+    width: 70%;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.jobsSection{
+    border: 2px solid greenyellow;
+    background-color: #020F13;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10rem;
+    
+}
+
+
+.jobsSection h3{
+    font-size: var(--font-size-h3);
+    font-weight: bold;
+    color: white;
+}
+
+.contactSection{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(2,15,19);
+    background: linear-gradient(180deg, rgba(2,15,19,1) 14%, rgba(7,41,60,1) 100%);
+
+    height: 35rem;
+    color: white;
+}
+
+.contactSection h3 {
+    font-size: var(--font-size-h3);
+}
+
+.contactSection .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+    /* align-items: center; */
+
+    /* width: 50%; */
+    width: 100rem;
+}
+
+.contactSection .right {
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    gap:2rem;
+    margin-top: 6rem;
+    /* align-items: center; */
+
+    /* width: 50%; */
+}
+
+.contactSection .right input {
+    height: 3rem;
+    width: 30rem;
+}
+button .button-49 {
+
+    align-items: left;
+
+
+}
+
+label.email-label {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+label.phone-label {
+    font-size: 2rem;
+}
+
+input {
+    height: 2.4rem;
+}
+
+
+/* stylized button */
+.button-49,
+.button-49:after {
+  width: 150px;
+  height: 76px;
+  line-height: 78px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(45deg, transparent 5%, #041A2B 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-49:after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'Com_Coders';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #041A2A 5%);
+  text-shadow: -3px -3px 0px #00E8FC, 3px 3px 0px #00E8FC;
+  clip-path: var(--slice-0);
+}
+
+.button-49:hover {
+    cursor: pointer;
+}
+
+.button-49:hover:after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .button-49,
+  .button-49:after {
+    width: 200px;
+    height: 86px;
+    line-height: 88px;
+  }
+}

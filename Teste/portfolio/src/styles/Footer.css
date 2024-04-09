@@ -1,0 +1,6 @@
+footer {
+    color: var(--links-text);
+    padding: 25px 175px;
+    display: flex;
+    justify-content: center;
+}

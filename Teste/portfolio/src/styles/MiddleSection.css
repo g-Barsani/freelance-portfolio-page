@@ -1,0 +1,39 @@
+.testimonial {
+    background-color: var(--links-text);
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    border: solid 3px var(--button-color);
+    border-radius: 8px;
+    width: 180px;
+    height: 180px;
+}
+
+.card p {
+    margin-top: 8px;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #4a5c75;
+}
+
+.testimonial {
+    padding: 100px 235px;
+    font-size: 36px;
+    font-style: italic;
+    color: var(--background);
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,25 @@
+.top-section {
+    background-color: var(--background);
+    padding: 120px  175px;
+    display: flex;
+    align-items: center;
+}
+
+.top-section h1 {
+    width: 345px;
+}
+
+.top-section p {
+    /* color: #F9FAf8; */
+    color: var(--text-color);
+    width: 450px;
+    margin-top: 0;
+}
+
+.top-section .left {
+    padding-right: 40px;
+}
+
+.top-section .left {
+    padding-right: 40px;
+}
